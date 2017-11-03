@@ -1,0 +1,116 @@
+.container {
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.025em;
+}
+
+body {
+    background-image: url("img/Background1.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > h1 {
+    font-family: "Fira Code";
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #6093e7;
+}
+
+.footer h6 {
+    line-height: 50px;
+    color: #FFF;
+}
+
+.overlay {
+    background-image: url("img/Background1.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+}
+
+body {
+    margin: 0;
+}
+
+header > nav {
+    display: flex;
+    background-color: dimgrey;
+}
+
+nav {
+    background-color: dimgrey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.NavBar {
+    padding: 25px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.Contactform {
+    border-radius: 5px;
+    padding: 20px;
+}
